@@ -1,9 +1,9 @@
 name: 'Build'
 on:
   push: 
-    #branches: [ workflow_dispatch ]
+    branches: [ master ]
   pull_request:
-    #types: [ opened, synchronize, reopened ]
+    types: [ opened, synchronize, reopened ]
 jobs:
   build:
     # Set up the OS
